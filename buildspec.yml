@@ -1,12 +1,14 @@
+version: 0.2
+
 phases:
   install:
     commands:
-      - echo Installing...
+      - echo "Install phase"
 
   build:
     commands:
-      - echo Build phase (nothing to build)
+      - echo "Build phase"
 
 artifacts:
   files:
-    - '*/'
+    - '**/*'
